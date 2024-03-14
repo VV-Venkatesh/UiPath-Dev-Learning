@@ -87,6 +87,6 @@
         <InArgument x:TypeArguments="s:String[]">[{"Bangalore","Mumbai","Hyderabad"}]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[String.Join(&quot;,&quot;,Cities)]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[String.Join(&quot;,&quot;,Cities)]" />
   </Sequence>
 </Activity>
